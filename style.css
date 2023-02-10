@@ -1,0 +1,186 @@
+/* Add custom CSS styles below */ 
+/* MA7 Edit */
+@import url('https://fontlibrary.org//face/droid-arabic-kufi');
+
+body * {
+    font-family: 'DroidArabicKufiRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+                    /*Edit Header*/
+                      
+                    
+.site-header {
+    background-color:#000;
+}
+header.site-header.sticky {
+    border-radius: 0px 0px 40px 40px;
+}
+.sub-nav {
+    background-color:rgb(252, 251, 244);
+    
+}
+.sub-nav a {
+    color:#000;
+    font-weight:bold;
+}
+.sub-nav li {
+    padding:0px 20px;
+}
+.sub-nav li:hover{
+    background-color:#FFF;
+}
+.logo img {
+    height:70px;
+}
+
+
+                    /* Edit Sliders  */
+
+.container.p-0.px-md-3 {
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.product-add {
+  background-color:#b97e24;
+  color:#FFF;
+}
+.product-add:hover {
+  background-color:#FFF !important;
+  color:#b97e24;
+  border:1px solid #b97e24;
+  border-radius: 0px 0px 0px 15px
+}
+.product-title{
+  font-weight:bold;
+}
+#cl_switcher *,
+.salla-theme_1 header.site-header #cl_switcher #cl_toggle {
+  color:#FFF
+}
+
+                    /* Edit Categories */
+section:nth-of-type(2) .row {
+    display:flex ;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+section:nth-of-type(2) .row .col-sm-4.col-md-4 {
+    width:calc( (100% / 3) - 20px );
+    margin:0;
+    padding:0;
+}
+                    
+.category-featured a {
+    border-radius:15px;
+}
+
+                    /* Edit Banner */
+                    
+.container.banner,
+.banner img {
+    width: 100%;
+    padding: 0;
+    margin:0;
+}
+
+section[data-type="banner"] {
+    padding-top:0 !important;
+}
+
+                    /* Edit Product Cover */
+                    
+.product.contain {
+    box-shadow: 2px 2px 12px rgba(0,0,0,.3);
+    border-radius: 15px;
+}
+
+.product.contain:hover {
+    box-shadow: -2px -2px 12px rgba(0,0,0,.3);
+    
+}
+
+.section-actions a
+{
+    background: linear-gradient(70deg, #b97e24, #feee00);
+    color:#111;
+}
+button#sort-toggle {
+    background: linear-gradient(70deg, #b97e24, #feee00);
+    color:#111;
+    border:0;
+}
+#sort-toggle:hover,
+#sort-toggle:active,
+#sort-toggle:focus
+{
+    color:#FFF;
+}
+.section--title:before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -15px;
+    border-radius: 4px;
+    background: linear-gradient(45deg, #b97e24, #feee00);
+}
+                    /* Edit Testomonials */
+section.u-light.py-5.text-center .section--title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    border-radius: 4px;
+    left: calc(50% - 30px);
+    bottom: -15px;
+    right:initial;
+    transform:translateY(0);
+    top:initial;
+}
+.section--title.mb-4 {
+    margin-bottom:35px !important;
+}
+
+                    /* Edit Footer */
+
+.footer-main {
+    background-color: #b97e24;
+    color: #111;
+    border-radius: 40px 40px 0px 0px;
+}
+.footer-main *{
+    color: #FFF !important;
+}
+
+.footer-main .footer-title span {
+    font-weight:bold !important;
+}
+footer .footer-main .footer-item .social__item a {
+    border: 1px solid #111;
+}
+
+b.d-inline-block.text-plain.v-align-middle {
+    color: #111 !important;
+    font-weight: bold;
+}
+
+
+
+                        /* Edit Social Icons */
+
+i.sicon-whatsapp2 {
+    color: #FFF !important;
+    padding:5px;
+    background-color: #55FA77;
+    border-radius: 5px;
+}
